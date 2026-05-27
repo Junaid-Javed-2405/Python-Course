@@ -1,8 +1,11 @@
+# Gun snake and water Game: 
+
 # 0 for water
 # 1 for snake
 # -1 for gun
 
 import random 
+
 
 computer=random.choice([1,0,-1])
 computer_dict={1:"snake",0:"Water",-1:"Gun"}
